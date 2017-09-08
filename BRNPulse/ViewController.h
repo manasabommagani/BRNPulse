@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NewViewController.h"
+#import "ViewController6.h"
+@interface ViewController : UIViewController<UITextFieldDelegate>
 
-@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *emailTF;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTF;
 
 
 @end
